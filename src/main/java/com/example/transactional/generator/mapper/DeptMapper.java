@@ -1,6 +1,6 @@
-package generator.mapper;
+package com.example.transactional.generator.mapper;
 
-import generator.domain.Dept;
+import com.example.transactional.generator.domain.Dept;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

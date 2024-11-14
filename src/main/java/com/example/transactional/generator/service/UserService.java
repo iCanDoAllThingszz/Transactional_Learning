@@ -1,6 +1,6 @@
-package generator.service;
+package com.example.transactional.generator.service;
 
-import generator.domain.User;
+import com.example.transactional.generator.domain.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

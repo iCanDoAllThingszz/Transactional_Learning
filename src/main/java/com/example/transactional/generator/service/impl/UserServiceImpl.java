@@ -1,9 +1,9 @@
-package generator.service.impl;
+package com.example.transactional.generator.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import generator.domain.User;
-import generator.service.UserService;
-import generator.mapper.UserMapper;
+import com.example.transactional.generator.mapper.UserMapper;
+import com.example.transactional.generator.service.UserService;
+import com.example.transactional.generator.domain.User;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,8 +12,7 @@ import org.springframework.stereotype.Service;
 * @createDate 2024-11-14 11:34:02
 */
 @Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User>
-    implements UserService{
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
 }
 
